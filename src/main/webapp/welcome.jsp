@@ -49,6 +49,15 @@
         <div class="container">    
         <h1>Welcome to the Thread Post</h1>
         <br>
+        <div class="well">
+            <h4>Add a post:</h4>
+            <form role="form" action="writePosts">
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" name="post"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
         <div class="media">
             <div class="media-body">
                 <c:forEach var="post" items="${posts}">
@@ -60,16 +69,6 @@
                 <br>
                 </c:forEach>
             </div>
-        </div>
-        <hr>
-        <div class="well">
-            <h4>Add a post:</h4>
-            <form role="form" action="writePosts">
-                <div class="form-group">
-                    <textarea class="form-control" rows="3" name="post"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
         </div>
         </div>
     </body>
