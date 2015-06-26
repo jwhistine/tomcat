@@ -66,8 +66,8 @@
                 </h4>
                 ${post.date}
                 <br>
-                <br>
                 <hr>
+                <br>
                 </c:forEach>
             </div>
         </div>
