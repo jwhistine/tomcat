@@ -58,6 +58,7 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
+        <br>
         <div class="media">
             <div class="media-body">
                 <c:forEach var="post" items="${posts}">
